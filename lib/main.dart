@@ -12,6 +12,7 @@ class PortfolioSite extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(fontFamily: 'simebold'),
       home: HomeView(),
     );
   }
